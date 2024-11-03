@@ -1,4 +1,4 @@
-import styled from "styled-components"
+
 import Header from "./Static/Header"
 import Home from "./Pages/Home"
 import Company from "./Pages/Company"
@@ -14,7 +14,7 @@ const App = ()=> {
   
 
   return (
-    <Container>
+    <>
       <BrowserRouter>
       <Header />
       <Routes>
@@ -28,7 +28,7 @@ const App = ()=> {
       </Routes>
       <Footer />
       </BrowserRouter>
-    </Container>
+    </>
 
   )
 }
@@ -36,4 +36,3 @@ const App = ()=> {
 export default App
 
 
-const Container = styled.div``
